@@ -31,7 +31,8 @@
   }
   .intro-chunk {
     max-width: 400px;
-    padding-top: 36px;
+    padding-top: 64px;
+    padding-bottom: 35px;
   }
   strong {
     color: #009966;
