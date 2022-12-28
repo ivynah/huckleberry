@@ -7,7 +7,6 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: #666666;
   }
   
   /* Add styles here! */
@@ -22,27 +21,31 @@
   }
   .max-width-wrapper {
     font-size: 20px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 96px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  main {
+    background-color: #666666;
+    padding: 64px 0;
   }
   .intro-chunk {
-    width: 400px; 
+    max-width: 400px;
+    padding-top: 36px;
   }
   strong {
     color: #009966;
   }
   .card {
-    width: 800px;
     background-color: #FFFFFF;
     padding-top: 8px;
+    margin: 0 -24px;
     border-bottom: 8px solid #999999;
   }
   .indented-heading {
     background-color: #FFBF00;
     width: fit-content;
-    padding: 16px;
+    padding: 16px 32px;
     margin: 0 0 0 -8px;
     border-bottom: 8px solid #CC9900;
   }
